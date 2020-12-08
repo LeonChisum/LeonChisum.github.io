@@ -1,0 +1,117 @@
+#experience {
+	padding: 80px 15px;
+	background: #cccccc;
+}
+#experience .large-title {
+	color: #fdee21;
+	font-size: 4.5rem;
+	font-weight: 900;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#experience .experience-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 20px;
+}
+#experience .experience-container .large-icons .square {
+	border: 20px solid #52b8ff;
+	padding: 5px;
+	display: inline-block;
+	position: relative;
+	top: -100px;
+}
+#experience .experience-container .large-icons .square .blue-box {
+	width: 150px;
+	height: 150px;
+	background-color: #52b8ff;
+	color: white;
+	text-transform: uppercase;
+	font-size: 1.2rem;
+	font-weight: 500;
+	letter-spacing: 3px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#experience .experience-container .large-icons .circle {
+	border: 20px solid #ffc853;
+	border-radius: 50%;
+	padding: 5px;
+	display: inline-block;
+	position: relative;
+	color: #ffc853;
+	top: 97px;
+	left: 60px;
+}
+#experience .experience-container .large-icons .circle .yellow-circle {
+	width: 150px;
+	height: 150px;
+	background-color: #ffc853;
+	border-radius: 50%;
+	color: white;
+	text-transform: uppercase;
+	font-size: 1.2rem;
+	font-weight: 500;
+	letter-spacing: 3px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#experience .experience-container .info {
+	padding: 80px 0 0;
+}
+#experience .experience-container .info .info-box {
+	padding: 15px;
+}
+#experience .experience-container .info .info-box h4 {
+	color: #16171b;
+	font-size: 1rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 2.5px;
+}
+#experience .experience-container .info .info-box .date {
+	color: #fdee21;
+	text-transform: capitalize;
+	font-size: 0.8rem;
+	letter-spacing: 1px;
+	padding: 15px 0;
+	display: block;
+}
+#experience .experience-container .info .info-box p {
+	color: white;
+	text-transform: capitalize;
+	font-size: 0.9rem;
+	letter-spacing: 1px;
+	line-height: 1.5;
+	display: block;
+}
+/* Tablets */
+@media only screen and (max-width: 960px) {
+	#experience .experience-container .large-icons .square {
+		top: 205px;
+		opacity: 0.2;
+	}
+	#experience .experience-container .large-icons .circle {
+		display: none;
+	}
+	#experience .experience-container {
+		grid-template-columns: 1fr 3fr;
+	}
+}
+
+/* Phones */
+@media only screen and (max-width: 767px) {
+	#experience .large-title {
+		font-size: 3.5rem;
+	}
+	#experience .experience-container .large-icons {
+		display: none;
+	}
+	#experience .experience-container {
+		grid-template-columns: 1fr;
+	}
+}

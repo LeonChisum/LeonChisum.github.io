@@ -1,0 +1,118 @@
+#portfolio-projects {
+	padding-top: 10%;
+}
+#portfolio-projects .project-img {
+	width: 100%;
+	margin-bottom: 3rem;
+}
+#portfolio-projects .project-img .img {
+	height: 450px;
+	background-size: cover !important;
+	background-position: top center !important;
+	background-repeat: no-repeat !important;
+	background-attachment: fixed;
+}
+#portfolio-projects h1 {
+	font-size: 4rem;
+	font-weight: 600;
+	font-style: italic;
+	margin-bottom: 2rem;
+}
+
+#portfolio-projects .info .buttons {
+	padding: 20px 0;
+}
+#portfolio-projects .info .buttons a {
+	display: inline-block;
+	padding: 10px 20px;
+	text-decoration: none;
+	text-transform: capitalize;
+	border-radius: 3px;
+	color: white;
+	background: black;
+	transition: all 0.4s ease-in-out;
+}
+#portfolio-projects .info .buttons a .far {
+	color: #fdee21;
+}
+
+#portfolio-projects .info .buttons a:hover {
+	background: #fdee21;
+	color: #929294;
+}
+#portfolio-projects .info .buttons a:hover .far {
+	color: #929294;
+}
+
+#portfolio-projects p {
+	color: #929294;
+	font-size: 1.2rem;
+	line-height: 1.7;
+	text-transform: capitalize;
+	margin: 1.5rem 0;
+}
+#portfolio-projects .technologies {
+	padding: 62px 0;
+}
+#portfolio-projects h3 {
+	font-size: 2rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin: 2rem 0;
+}
+#portfolio-projects .technologies .icons {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 20px;
+	align-items: center;
+	justify-items: center;
+	transition: all 0.3s ease-in-out;
+}
+#portfolio-projects .technologies .icons .icon-img {
+	filter: grayscale(100%);
+	transition: all 0.3s ease-in-out;
+	cursor: pointer;
+}
+#portfolio-projects .technologies .icons .icon-img:hover {
+	filter: grayscale(0%);
+}
+#portfolio-projects .technologies .icons .icon-img img {
+	width: 100%;
+	max-width: 60px;
+}
+.portfolio-projects .video {
+	text-align: center;
+}
+/* Tablets */
+@media only screen and (max-width: 960px) {
+	#portfolio-projects h1,
+	#portfolio-projects h3,
+	#portfolio-projects .info .buttons {
+		text-align: center;
+	}
+	#portfolio-projects .project-img .img {
+		background-attachment: initial;
+	}
+	#portfolio-projects p {
+		margin: 1.5rem;
+	}
+}
+/* Phones */
+@media only screen and (max-width: 767px) {
+	#portfolio-projects h1 {
+		font-size: 2rem;
+		text-transform: uppercase;
+	}
+	#portfolio-projects .info .buttons {
+		display: flex;
+		flex-direction: column;
+	}
+	#portfolio-projects .info .buttons a {
+		margin-bottom: 8px;
+		padding: 16px 20px;
+		height: 50px;
+	}
+	#portfolio-projects h3 {
+		font-size: 1.5rem;
+	}
+}
