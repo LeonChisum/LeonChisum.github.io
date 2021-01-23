@@ -45,6 +45,9 @@ h3 {
 	align-items: baseline;
 	margin-bottom: 20%;
 }
+#project-view .tech-info .info {
+	width: 65%;
+}
 #project-view .tech-info .icons {
 	display: flex;
 	flex-direction: column;
@@ -57,6 +60,9 @@ h3 {
 }
 #project-view .tech-info .icon-container .fab {
 	font-size: 35px;
+}
+#project-view .tech-info .icon-container img {
+	width: 6%;
 }
 
 #project-view .tech-info .icon-container p {
@@ -90,7 +96,7 @@ h3 {
 	background: #fdee21;
 	color: #929294;
 }
-#project-view .tech-info .view-btns a:hover .far {
+#project-view .tech-info .view-btns a:hover .fas {
 	color: #929294;
 }
 
