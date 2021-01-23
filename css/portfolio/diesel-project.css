@@ -40,9 +40,37 @@ h3 {
 	width: 100%;
 }
 #project-view .tech-info {
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+	margin-bottom: 20%;
+}
+#project-view .tech-info .icons {
+	display: flex;
+	flex-direction: column;
 }
 
-#portfolio-projects .info .buttons a {
+#project-view .tech-info .icon-container {
+	display: flex;
+	align-items: center;
+	margin-bottom: 20px;
+}
+#project-view .tech-info .icon-container .fab {
+	font-size: 35px;
+}
+
+#project-view .tech-info .icon-container p {
+	margin-left: 20px;
+	color: #929294;
+	font-size: 0.9rem;
+}
+
+#project-view .tech-info .view-btns {
+	display: flex;
+	justify-content: space-between;
+}
+
+#project-view .tech-info .view-btns a {
 	display: inline-block;
 	padding: 10px 20px;
 	text-decoration: none;
@@ -51,16 +79,18 @@ h3 {
 	color: white;
 	background: black;
 	transition: all 0.4s ease-in-out;
+	margin-left: 15px;
 }
-#portfolio-projects .info .buttons a .far {
+
+#project-view .tech-info .view-btns a .fas {
 	color: #fdee21;
 }
 
-#portfolio-projects .info .buttons a:hover {
+#project-view .tech-info .view-btns a:hover {
 	background: #fdee21;
 	color: #929294;
 }
-#portfolio-projects .info .buttons a:hover .far {
+#project-view .tech-info .view-btns a:hover .far {
 	color: #929294;
 }
 
