@@ -112,7 +112,7 @@
 	grid-row: 2 / 3;
 }
 #portfolio .portfolio-container .box.image3 .image {
-	background: url('https://cdn.dribbble.com/users/102769/screenshots/2769535/attachments/564669/4.png');
+	background: url('/img/motox.png');
 	height: 100%;
 	width: 100%;
 	background-size: cover;
