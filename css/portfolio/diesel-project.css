@@ -2,6 +2,24 @@
 	width: 75%;
 	margin: 0 auto;
 }
+.nxt-btns {
+	display: flex;
+	max-width: 75%;
+	width: 100%;
+	justify-content: space-between;
+	position: absolute;
+	z-index: -2;
+	margin-top: 2%;
+}
+.nxt-btns a {
+	text-decoration: none;
+	color: black;
+	cursor: pointer;
+}
+.nxt-btns a i {
+	font-size: 1.5rem;
+}
+
 h3 {
 	font-size: 1rem;
 	letter-spacing: 1px;
