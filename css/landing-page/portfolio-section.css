@@ -132,11 +132,11 @@
 	background-repeat: no-repeat;
 }
 #portfolio .portfolio-container .box.image5 {
-	grid-column: 1 / 2;
+	grid-column: 1 / 4;
 	grid-row: 3 / 5;
 }
 #portfolio .portfolio-container .box.image5 .image {
-	background: url('https://cdn.dribbble.com/users/102769/screenshots/2769535/attachments/564669/4.png');
+	background: url('/img/ricknmorty.png');
 	height: 100%;
 	width: 100%;
 	background-size: cover;
